@@ -1,11 +1,11 @@
 # Code Companion
-A project for user account and project management.
 
-## Features
-* OAuth with Google and email/password flow
-* First-time users are guided to create a project name and select a runtime
-* Project dashboard lists generated components and deployment status
+A simple monitoring system for deployed components.
 
 ## Usage
-1. Run `python -m pytest` to run the tests.
-2. Run `python src/main.py` to start the application.
+
+1. Create a `Monitor` instance.
+2. Collect metrics for each component using `collect_metrics`.
+3. Get the health of a component using `get_component_health`.
+4. Send an alert for a component using `send_alert`.
+5. Get the dashboard for all components using `get_dashboard`.
