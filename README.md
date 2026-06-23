@@ -1,14 +1,11 @@
 # Code Companion
-
-A tiny, pure‑Python library that gives **real‑time, human‑readable explanations** for
-Python code snippets. It is designed for non‑technical founders who want to see
-what each line does while they build internal tools.
+A project for user account and project management.
 
 ## Features
+* OAuth with Google and email/password flow
+* First-time users are guided to create a project name and select a runtime
+* Project dashboard lists generated components and deployment status
 
-* Parses a multiline string of Python code.
-* Returns a list of explanations, one per non‑empty line.
-* Handles function definitions, assignments, returns, imports and basic control flow.
-* No external dependencies – only the Python standard library.
-
-## Installation
+## Usage
+1. Run `python -m pytest` to run the tests.
+2. Run `python src/main.py` to start the application.
